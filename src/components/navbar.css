@@ -1,0 +1,77 @@
+.transparency{
+    opacity: 0.7;
+}
+
+/* a:hover{
+    background-color: rgb(30, 28, 28);
+} */
+
+.hero-image{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(0,0,0,0.5) 100%),url("../../trucking1c.jpg");
+    background-size:cover;
+    height: 70vh;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.anthray{
+    color: blue;
+    text-shadow: 0 0 3px white;
+}
+
+.options{
+    display: flex;
+    position: relative;
+    margin-top: 2.5%;
+    justify-content: center;
+    height: 10vh;
+    width: max-content;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.margin{
+    margin-top: 5% ;
+}
+
+.booknowstyle{
+    border-radius: 30px;
+}
+
+.smalltext{
+    position: absolute;
+    margin-left: 30%;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10%;
+}
+
+.imgg{
+    width: 50vw;
+    height: 50vh;
+    object-fit:cover;
+    object-position: right 75%;
+    
+}
+
+.size{
+    width: 100%;
+}
+
+.whyweare{
+    background-color: rgb(9, 9, 137);
+}
+.whyweare2{
+    background-color: rgb(30, 30, 102);
+}

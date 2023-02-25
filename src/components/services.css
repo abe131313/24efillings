@@ -1,0 +1,17 @@
+.parent{
+    position: relative;
+}
+.cardBorer{
+    border-color: blue  ;
+    border-width: medium;
+}
+
+.cartFill{
+    position: absolute;
+    bottom: 390px;
+    right: 400px;
+}
+
+.imgg{
+    object-fit: cover;
+}
